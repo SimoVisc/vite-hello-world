@@ -1,16 +1,16 @@
 <script>
-import PageTitle from './components/HelloWorld.vue';
+import AppTitle from './components/AppTitle.vue';
 
 export default {
   components: {
-    HelloWorld
+    AppTitle
   }
 }
 </script>
 
 <template>
   <div>
-    <HelloWorld/>
+    <AppTitle msg="La mia prima app con Vite!"/>
   </div>
 </template>
 
